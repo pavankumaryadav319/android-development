@@ -1,0 +1,84 @@
+/*fun main(args: Array<String>)
+{
+    val letter:char= 'A' 
+    print("$letter")
+    print('/n') //print a new line 
+    print('/$') // print only $
+    print('\\') //print only \
+}*/
+
+
+/*fun main(){
+    val n2 = """pavankumar
+    pavankumar
+    pavankumar
+    pavankumar
+    pavankumar
+    pavankumar"""
+    print(n2)
+}*/
+/*fun main(){
+    val n1 = """
+         Ram
+   Ram         ram
+         Ram"""
+    print(n1)
+}*/
+
+/*fun main(){
+    val numbers = arrayOf(1,2,3,4,5)
+    val Words: Array<String> = arrayOf("ram","choti","pavan")
+    val squares = Array(5) {i -> i * i }
+    val firstNumber = numbers[0]
+    val secondWord = Words[1]
+    println("First number : $firstNumber")
+    println("Second number : $secondWord")
+    
+    numbers[0] = 10
+    val modified_number = numbers[0]
+    Words[1] = "kotlin"
+    val modified_Words = Words[1]
+    println("Modified first number is $modified_number")
+    println("Modified second number is $modified_Words")    
+}*/
+
+
+/*fun main()
+{
+    val matrix:Array<Array<Int>> = arrayOf(arrayOf(1,2,3),arrayOf(4,5,6),arrayOf(7,8,9))
+    println("Element at row 0, column 1: ${matrix[0][1]}")
+}*/
+
+/*fun main() {
+    val matrix: Array<Array<Int>> = arrayOf(
+        arrayOf(1, 2, 3),
+        arrayOf(4, 5, 6),
+        arrayOf(7, 8, 9)
+    )
+   
+    for (row in matrix) {
+        for (element in row) {
+            print("$element ")
+        }
+        println()
+    }
+}*/
+
+
+
+/*fun main()
+{
+    val x:Int = 1000000
+    val y:Long = x.toLong()
+    println(y)
+}*/
+
+
+fun main()
+{
+    var a = "hi"
+    var b : String = a as String
+    println("unsafe casting result : $b")
+    val c : Int = a as? Int
+    println("unsafe casting result : $c")
+}
